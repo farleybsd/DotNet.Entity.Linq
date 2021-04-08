@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1", "Aula1\Aula1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3-Subconsulta", "Aula3-Subconsulta\Aula3-Subconsulta.csproj", "{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula4 -Produto Mais Vendido", "Aula4 -Produto Mais Vendido\Aula4 -Produto Mais Vendido.csproj", "{F92F4EAE-6403-4254-8107-E5EAF09A64D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92F4EAE-6403-4254-8107-E5EAF09A64D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92F4EAE-6403-4254-8107-E5EAF09A64D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92F4EAE-6403-4254-8107-E5EAF09A64D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92F4EAE-6403-4254-8107-E5EAF09A64D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

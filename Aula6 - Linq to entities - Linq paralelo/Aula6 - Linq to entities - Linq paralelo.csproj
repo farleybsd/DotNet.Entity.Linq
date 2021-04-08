@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C616710D-52B3-483B-8D54-19A1803D980F}</ProjectGuid>
+    <ProjectGuid>{051901D9-5560-4DBB-B868-C6133233A67A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Aula5_IndicacaoCompra</RootNamespace>
-    <AssemblyName>Aula5-IndicacaoCompra</AssemblyName>
+    <RootNamespace>Aula6___Linq_to_entities___Linq_paralelo</RootNamespace>
+    <AssemblyName>Aula6 - Linq to entities - Linq paralelo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

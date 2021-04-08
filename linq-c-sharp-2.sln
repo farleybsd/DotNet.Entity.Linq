@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraTunesEF", "AluraTunesEF\AluraTunesEF.csproj", "{98D9F89D-CD55-4CC1-AA8E-E7E723687650}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1", "Aula1\Aula1.csproj", "{01B9ABD5-ABD7-40FA-9DCC-C79746423296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3-Subconsulta", "Aula3-Subconsulta\Aula3-Subconsulta.csproj", "{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{01B9ABD5-ABD7-40FA-9DCC-C79746423296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B9ABD5-ABD7-40FA-9DCC-C79746423296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B9ABD5-ABD7-40FA-9DCC-C79746423296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3139CD5F-A2B6-4128-BDCD-4C19E1A0CA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1EC3C9C-826C-44CC-971F-34EC6EFB7F16}
 	EndGlobalSection
 EndGlobal

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula4 -Produto Mais Vendido
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula5-IndicacaoCompra", "Aula5-IndicacaoCompra\Aula5-IndicacaoCompra.csproj", "{C616710D-52B3-483B-8D54-19A1803D980F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula6-Execucao tardia - Execucao imediata", "Aula6-Execucao tardia - Execucao imediata\Aula6-Execucao tardia - Execucao imediata.csproj", "{6F9A1006-4103-4182-B8FF-A32D9A89AF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C616710D-52B3-483B-8D54-19A1803D980F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C616710D-52B3-483B-8D54-19A1803D980F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C616710D-52B3-483B-8D54-19A1803D980F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9A1006-4103-4182-B8FF-A32D9A89AF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9A1006-4103-4182-B8FF-A32D9A89AF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9A1006-4103-4182-B8FF-A32D9A89AF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9A1006-4103-4182-B8FF-A32D9A89AF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

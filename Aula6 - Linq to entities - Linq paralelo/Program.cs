@@ -58,10 +58,17 @@ namespace Aula6___Linq_to_entities___Linq_paralelo
 
                 Console.WriteLine("Codigos Gerados: {0} em {1} segundos.",contagem,stopwatch.ElapsedMilliseconds / 1000.0);
 
-                foreach (var item in queryCodigos)
-                {
-                    item.Imagem.Save(item.Arquivo, ImageFormat.Jpeg);
-                }
+                stopwatch = Stopwatch.StartNew();
+
+                //foreach (var item in queryCodigos)
+                //{
+                //    item.Imagem.Save(item.Arquivo, ImageFormat.Jpeg);
+                //}
+
+                queryCodigos.ForAll(item =>item.Imagem.Save(item.Arquivo, ImageFormat.Jpeg)); // distribui em varias trades
+
+                stopwatch.Stop();
+                Console.WriteLine("Codigos Salvos em arquivos: {0} em {1} segundos.", contagem, stopwatch.ElapsedMilliseconds / 1000.0);
             }
 
             Console.ReadKey();
